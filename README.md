@@ -177,6 +177,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This system is intended as a supplementary safety tool and should not be relied upon as the primary method for preventing drowsy driving or workplace accidents. Always prioritize proper rest and safe practices.
 
+
+## 🎥 Youtube video
+
+[![DrowsinessDetectionYoutube](https://img.youtube.com/vi/dYdnf_ivEwY/0.jpg)](https://www.youtube.com/watch?v=dYdnf_ivEwY)
 ---
 
 **Stay Alert, Stay Safe! 🚨**
