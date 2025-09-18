@@ -25,7 +25,7 @@ ALARM_THREAD = None # Alarm thread
 
 # AUDIO FILE CONFIGURATION
 # Put the path to your audio file here
-ALARM_FILE = "G:/Guilherme/Sigmoidal/Masterclass Visao/sonolencia/buzina.wav"  # Example: "C:/Users/your_user/Desktop/alarm.wav"
+ALARM_FILE = "alarm.wav"  # Example: "C:/Users/your_user/Desktop/alarm.wav"
 # Supported formats: .wav, .mp3, .ogg, .flac (depending on available library)
 
 # Variable to control which audio library to use
@@ -386,6 +386,10 @@ while True:
             # Show type of alarm being used
             alarm_type = AUDIO_LIBRARY if AUDIO_LIBRARY else "System"
             cv2.putText(frame, f"Audio: {alarm_type}", (500, 120),
+                       cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+
+            # Show how to quit
+            cv2.putText(frame, f"Press 'q' to quit", (500, 140),
                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
     
     else:
