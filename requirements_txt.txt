@@ -1,0 +1,27 @@
+# Core dependencies
+opencv-python>=4.5.0
+mediapipe>=0.10.0
+numpy>=1.21.0
+scipy>=1.7.0
+imutils>=0.5.4
+matplotlib>=3.3.0
+
+# Audio libraries (choose one or more based on your needs)
+pygame>=2.0.0          # Recommended - cross-platform, reliable
+playsound>=1.2.0       # Simple option - may have compatibility issues on some systems
+pydub>=0.25.0          # Flexible audio processing - requires additional audio libraries
+simpleaudio>=1.0.4     # Required for pydub playback
+
+# Platform-specific audio (automatically available)
+# winsound - Windows built-in (for .wav files only)
+# 
+# Linux users may need:
+# sudo apt-get install python3-pyaudio portaudio19-dev
+# sudo apt-get install ffmpeg  # for pydub
+#
+# macOS users may need:
+# brew install portaudio
+# brew install ffmpeg  # for pydub
+
+# Optional: For better audio format support with pydub
+# ffmpeg-python>=0.2.0
