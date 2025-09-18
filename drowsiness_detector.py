@@ -13,7 +13,6 @@ import imutils
 import time
 import mediapipe as mp
 import cv2
-import matplotlib.pyplot as plt
 
 # define constants
 WEBCAM = 0 # webcam index (0 for default webcam)
